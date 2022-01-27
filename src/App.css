@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    cursor: default;
+    background-color: #222;
+}
+
+body {
+    font-family: 'aktiv-grotesk-std', Helvetica Neue, Arial, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.33333;
+    color: #999;
+}
+
+main {
+    max-width: 810px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 810px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer {
+    position: relative;
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/
+    height: 40px;
+}
